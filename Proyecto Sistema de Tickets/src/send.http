@@ -1,0 +1,18 @@
+### Test API redmine
+@key = 3c96d6117865dae9d77dbb517c3972907e6d245c
+
+### Create issue
+POST http://localhost:3000/issues.json
+X-Redmine-API-Key: 3c96d6117865dae9d77dbb517c3972907e6d245c
+Content-Type: application/json
+
+{
+  "issue": {
+    "project_id": "projecttickets",
+    "subject": "Ticket subject",
+    "description": "Prueba 8",
+    "tracker_id": 1,
+    "status_id": 1,
+    "priority_id": 4
+  }
+}

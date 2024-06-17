@@ -1,0 +1,17 @@
+### List trackers
+GET http://localhost:3000/trackers.json
+X-Redmine-API-Key: 3c96d6117865dae9d77dbb517c3972907e6d245c
+Content-Type: application/json
+
+### List issue priorities
+GET http://localhost:3000/enumerations/issue_priorities.json
+X-Redmine-API-Key: 3c96d6117865dae9d77dbb517c3972907e6d245c
+Content-Type: application/json
+
+### List issues
+GET http://localhost:3000/issues.json
+X-Redmine-API-Key: 3c96d6117865dae9d77dbb517c3972907e6d245c
+Content-Type: application/json
+
+
+
